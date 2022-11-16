@@ -133,3 +133,28 @@
     position: relative;
     bottom: -34px;
   }
+
+  /* Media Queries */
+/* -----TABLET----- */
+
+ /* M.Q. Navbar */
+
+ 
+ /* M.Q. Demo Section */
+  @media screen and (max-width: 768px) {
+    .card-big {
+        flex-direction: column;
+        
+    }
+
+    .card-big-right img {
+        height: 345px;
+        position: relative;
+        bottom: -15px;
+      }
+
+    .card-big-left {
+        width: 100%;
+    }
+    
+  }
