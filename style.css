@@ -4,3 +4,57 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  /* Utils */
+
+  body {
+    
+  }
+
+  header {
+    height: 60px;
+    background-color: rgb(0, 132, 253);
+    
+
+  }
+
+  nav {
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  li {
+    color: white;
+    list-style: none;
+    margin: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+
+  /* Generics */
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .wht-bttn {
+    border: 1px solid black;
+    padding: 8px 12px;
+    border-radius: 20px;
+    color: black;
+    background-color: #fff;
+  }
+
