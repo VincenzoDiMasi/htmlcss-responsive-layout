@@ -7,6 +7,11 @@
 
   /* Utils */
 
+  .border {
+    border: 1px dashed black;
+    min-height: 500px;
+  }
+
   body {
     
   }
@@ -58,3 +63,32 @@
     background-color: #fff;
   }
 
+
+  /* Demo Application Section */
+
+  .column {
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+  }
+
+  .card {
+    border: 3px dashed red;
+    flex-basis: calc(100% / 3);
+    min-height: 200px;
+    background-color: rgb(181, 221, 255);
+    
+    border-radius: 5%;
+  } 
+
+  .card-big {
+    border: 1px dashed red;
+    flex-basis: calc((100% / 3) * 2);
+    min-height: 200px;
+    background-color: rgb(181, 221, 255);
+   
+    border-radius: 5%;
+
+
+
+  }
