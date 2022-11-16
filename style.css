@@ -185,3 +185,31 @@
     }
     
   }
+
+
+  /* ------MOBILE------ */
+
+ /* M.Q. Navbar */
+  @media screen and (max-width: 425px) {
+    .hidden-navbar {
+        display: none;
+    }
+
+    .navbar-logo {
+        padding-left: 10px;
+    }
+    
+  }
+
+
+ /* M.Q. Demo Section */
+  @media screen and (max-width: 425px) {
+    .column {
+        flex-direction: column;
+    }
+
+    .card,.card-big {
+        margin: 0 10px;
+    }
+    
+  }
