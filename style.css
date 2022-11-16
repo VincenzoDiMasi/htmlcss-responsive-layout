@@ -88,6 +88,16 @@
     font-weight: 5;
   }
 
+  /* Navbar */
+
+  .fa-bars {
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .navbar-logo ·{
+    padding-left: 10px;
+  }
 
   /* Demo Application Section */
 
@@ -135,11 +145,28 @@
   }
 
   /* Media Queries */
+
+  @media screen and (min-width: 769px) {
+    .hidden-menu {
+        display: none;
+    }
+    
+  }
+
 /* -----TABLET----- */
 
  /* M.Q. Navbar */
+  @media screen and (max-width: 768px) {
+    .hidden-navbar {
+        display: none;
+    }
 
- 
+    .navbar-logo {
+        padding-left: 10px;
+    }
+    
+  }
+
  /* M.Q. Demo Section */
   @media screen and (max-width: 768px) {
     .card-big {
