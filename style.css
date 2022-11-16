@@ -13,12 +13,13 @@
   }
 
   body {
-    
+    font-family: 'Open Sans', sans-serif;
   }
 
   header {
     height: 60px;
     background-color: rgb(0, 132, 253);
+    
     
 
   }
@@ -41,7 +42,22 @@
     color: white;
   }
 
+  .column h4 {
+    color: rgb(0, 132, 253);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+  }
 
+  .column p {
+    color: rgb(110, 134, 155);
+    margin-bottom: 30px;
+  }
+
+  .fa-solid {
+    color: rgb(0, 132, 253);
+    font-size: 100px;ù
+  }
 
 
   /* Generics */
@@ -63,6 +79,15 @@
     background-color: #fff;
   }
 
+  .blue-bttn {
+    /* border: 1px solid black; */
+    padding: 8px 25px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(0, 132, 253);
+    font-weight: 5;
+  }
+
 
   /* Demo Application Section */
 
@@ -73,22 +98,38 @@
   }
 
   .card {
-    border: 3px dashed red;
+    border: 3px solid white;
     flex-basis: calc(100% / 3);
     min-height: 200px;
     background-color: rgb(181, 221, 255);
-    
-    border-radius: 5%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px 10px;
   } 
 
   .card-big {
-    border: 1px dashed red;
+    border: 1px solid white;
     flex-basis: calc((100% / 3) * 2);
     min-height: 200px;
     background-color: rgb(181, 221, 255);
-   
-    border-radius: 5%;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-around;
+  }
+
+  .card-big-left {
+    width: 40%;
+
+  }
+
+  .card-big-left h4 {
+
+  }
 
 
 
+  .card-big-right img {
+    height: 345px;
+    position: relative;
+    bottom: -34px;
   }
