@@ -255,18 +255,49 @@
   }
 
   .card-testimonial {
-    border: 1px dashed red;
     min-height: 200px;
     border-radius: 20px;
-    margin: 30px 0;
+    margin: 30px;
     background-color: rgb(151, 146, 228);
+    padding: 30px;
   }
 
   #testimonial h2 {
     color: rgb(151, 146, 228);
   }
 
+  .ph-testimonial {
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+  }
 
+  .ph-testimonial img {
+    width: 100%;
+    height: 100%; 
+    display: block;
+  }
+
+  .quote-testimonial {
+    
+    flex-basis: 80%;
+    color: #fff;
+    text-align: left;
+    padding: 40px 20px;
+  }
+
+  .quote-testimonial .fa-solid {
+    color: #fff;
+    font-size: 25px;
+  }
+
+  .quote-testimonial h5 {
+    margin-top: 15px;
+  }
+
+  
 
 
 
