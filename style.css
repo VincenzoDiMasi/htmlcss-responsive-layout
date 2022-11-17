@@ -27,6 +27,14 @@
     padding-top: 80px ;
   }
 
+  section {
+    min-height: 500px;
+  }
+
+  section:nth-child(even) {
+    background-color: rgb(151, 146, 228);
+  }
+
   nav {
     height: 60px;
     justify-content: space-between;
@@ -51,17 +59,14 @@
     color: white;
   }
 
-  .column h4 {
-    color: rgb(0, 132, 253);
-    margin-bottom: 30px;
-    margin-top: 30px;
+  h4 {
     font-size: 20px;
   }
 
-  .column p {
-    color: rgb(110, 134, 155);
-    margin-bottom: 30px;
+  h3 {
+    font-size: 25px;
   }
+ 
 
   .fa-solid {
     color: rgb(0, 132, 253);
@@ -102,13 +107,7 @@
     font-weight: 5;
   }
 
-  section {
-    min-height: 500px;
-  }
-
-  section:nth-child(even) {
-    background-color: rgb(151, 146, 228);
-  }
+  
 
   
 
@@ -129,6 +128,18 @@
     flex-wrap: wrap;
     margin-top: 30px;
     
+  }
+
+  .column h4 {
+    color: rgb(0, 132, 253);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+  }
+
+  .column p {
+    color: rgb(110, 134, 155);
+    margin-bottom: 30px;
   }
 
   .card {
@@ -167,6 +178,67 @@
     position: relative;
     bottom: -30px;
   }
+
+/* Strategic Planning Section */
+
+  #strategic-planning .row {
+    padding: 100px;
+    flex-wrap: wrap;
+  } 
+
+  .col-50 {
+    flex-basis: 50%;
+    min-height: 500px;
+    color: #fff;
+    
+  }
+
+  .card-strategic {
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px 10px;
+    margin-top: 110px;
+    color: black;
+    
+  } 
+
+  .col-50 img {
+    height: 445px;
+
+  }
+
+  .col-50 h3 {
+    margin: 20px 0;
+  }
+
+  .card-strategic img {
+    height: 200px;
+  }
+
+  .fa-arrow-down {
+    color: black;
+    font-size: 40px;
+    margin: 40px 0;
+    vertical-align: middle;
+  }
+
+  .card-strategic h4 {
+    margin: 10px 0;
+  }
+
+  .card-strategic p {
+    font-style: italic;
+  }
+
+  .card-strategic a {
+    padding: 17px;
+    border: 2px dashed rgb(151, 146, 228);
+    border-radius: 50%;
+    background-color: rgb(151, 146, 228);
+  }
+
 
   /* Media Queries */
 
