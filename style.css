@@ -71,6 +71,11 @@
     font-size: 30px;
     padding: 20px 0;
   }
+
+  h1 {
+    font-size: 55px;
+    padding: 20px 0;
+  }
  
 
   .fa-solid {
@@ -110,6 +115,16 @@
     color: white;
     background-color: rgb(0, 132, 253);
     font-weight: 5;
+  }
+
+  .prpl-bttn {
+    /* border: 1px solid black; */
+    padding: 8px 45px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(151, 146, 228);
+    font-weight: 5;
+    
   }
 
   
@@ -267,7 +282,7 @@
   }
 
   .ph-testimonial {
-    width: 250px;
+    width: 200px;
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
@@ -297,7 +312,44 @@
     margin-top: 15px;
   }
 
+  /* Benefits Section */
+
+  #benefits {
+    padding: 40px 0;
+    text-align: center;
+  }
   
+  #benefits h2 {
+    color: #fff;
+  }
+
+  .col-ben {
+    flex-wrap: wrap;
+    margin-top: 30px;
+    min-height: 200px;
+    padding: 30px;
+  }
+  
+  .card-ben {
+    border: 10px solid rgb(151, 146, 228);
+    flex-basis: calc(100% / 3);
+    min-height: 400px;
+    background-color: white;
+    text-align: left;
+    border-radius: 20px;
+    padding: 30px 10px;
+    
+  } 
+
+  .card-ben h1,h4 {
+    color: rgb(151, 146, 228);
+  }
+
+  .card-ben p {
+    margin: 15px 0 25px 0;
+    color: rgb(151, 146, 228);
+
+  }
 
 
 
@@ -356,6 +408,8 @@
     }
     
   }
+
+  /* M.Q. Benefits Section */
 
   /* ------MOBILE------ */
 
