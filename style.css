@@ -410,6 +410,16 @@
   }
 
   /* M.Q. Benefits Section */
+@media screen and (max-width: 768px) {
+    .card-ben {
+        flex-basis: 50%;
+    }
+    
+}
+
+
+
+
 
   /* ------MOBILE------ */
 
@@ -461,3 +471,11 @@
     }
     
   }
+
+    /* M.Q. Benefits Section */
+@media screen and (max-width: 425px) {
+    .col-ben {
+        flex-direction: column;
+    }
+    
+}
