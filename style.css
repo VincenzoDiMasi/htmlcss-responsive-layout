@@ -282,6 +282,13 @@
     
   }
 
+  /* M.Q. Strategic Session */
+  @media screen and (max-width: 768px) {
+    #strategic-planning .row {
+        flex-direction: column;
+    }
+    
+  }
 
   /* ------MOBILE------ */
 
@@ -306,6 +313,22 @@
 
     .card,.card-big {
         margin: 0 10px;
+    }
+    
+  }
+
+  /* M.Q. Strategic Session */
+  @media screen and (max-width: 425px) {
+    #strategic-planning .row {
+        flex-direction: column;
+    }
+
+    .col-50 img {
+        height: 245px;
+    }
+
+    .card-strategic {
+        height: 645px;
     }
     
   }
